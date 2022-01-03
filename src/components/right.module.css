@@ -1,10 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 .right {
   width: 20%;
   border: 1px solid black;
   float: right;
   margin-left: 50%;
   background-color: palevioletred;
+  overflow: scroll;
 }
-.button {
-  width: 50%;
+.bu {
+  overflow: scroll;
 }

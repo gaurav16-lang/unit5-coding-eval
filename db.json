@@ -1,5 +1,37 @@
 {
   "Receipes": [
-   
+    {
+      "title": "Biryani",
+      "ingredients": "onion,rice,oil",
+      "timeToCook": "3am",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1rUNO0zpalkwrWGIf24a0fjfMMpnla6FgnQ&usqp=CAU",
+      "instructions": "eat slowly pls",
+      "id": 1
+    },
+    {
+      "title": "hamburger",
+      "ingredients": "bread,cheese",
+      "timeToCook": "2am",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpXLNOpjcyUBR9ExZce_tZTFuGS9t8YVoMxVJ84DYKGqyqIfiY46KjJmJF4ucOUTzrUS8&usqp=CAU",
+      "id": 2
+    }
+  ],
+  "Down": [
+    {
+      "title": "Biryani",
+      "ingredients": "onion,rice,oil",
+      "timeToCook": "3am",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1rUNO0zpalkwrWGIf24a0fjfMMpnla6FgnQ&usqp=CAU",
+      "instructions": "eat slowly pls",
+      "id": 1
+    },
+    {
+      "title": "Biryani",
+      "ingredients": "onion,rice,oil",
+      "timeToCook": "3am",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1rUNO0zpalkwrWGIf24a0fjfMMpnla6FgnQ&usqp=CAU",
+      "instructions": "eat slowly pls",
+      "id": 2
+    }
   ]
 }

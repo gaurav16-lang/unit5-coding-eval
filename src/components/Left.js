@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import style from './left.module.css'
 import Right from './Right'
-import rstyle from './right.module.css'
+// import rstyle from './right.module.css'
 
 const Left = () => {
   const [data, setData] = useState({
@@ -73,7 +73,7 @@ const Left = () => {
         <br />
         <button onClick={handlereceipe}>Add receipe</button>
       </div>
-      <Right className={rstyle} />
+      <Right />
     </div>
   )
 }

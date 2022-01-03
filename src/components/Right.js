@@ -18,7 +18,7 @@ const Right = () => {
     <div className={style.right}>
       <button onClick={display}>Display All the receipe</button>
       <h1 style={{ color: '#FF3D00' }}>Receipes</h1>
-      <div>
+      <div className={style.bu}>
         {data.map((dat) => (
           <div key={dat.id}>
             <img src={dat.image} alt="img" />
@@ -26,6 +26,27 @@ const Right = () => {
             <p>{dat.ingredients}</p>
             <p>{dat.timeToCook}</p>
             <p>{dat.instructions}</p>
+            <button
+              onClick={() => {
+                const payload = {
+                  title: dat.title,
+                  ingredients: dat.ingredients,
+                  timeToCook: dat.timeToCook,
+                  image: dat.image,
+                  instructions: dat.instructions,
+                }
+
+                fetch('http://localhost:4500/Down', {
+                  method: 'POST',
+                  body: JSON.stringify(payload),
+                  headers: {
+                    'content-type': 'application/json',
+                  },
+                }).then(() => {})
+              }}
+            >
+              See whole detail of receipe
+            </button>
           </div>
         ))}
       </div>

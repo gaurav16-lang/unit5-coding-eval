@@ -1,0 +1,26 @@
+.bottom {
+  background-color: #3949ab;
+  padding: 5px;
+  height: 100vh;
+}
+.bottom button {
+  padding: 10px;
+  border: none;
+  margin: 0 30px;
+  cursor: pointer;
+  background-color: burlywood;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 5%;
+}
+
+.grid h1 {
+  display: inline-block;
+  color: pink;
+}
+.grid p {
+  color: red;
+}
