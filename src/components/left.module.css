@@ -1,0 +1,26 @@
+.top {
+  display: flex;
+  width: 100%;
+  border: 1px solid green;
+  padding: 10px;
+  background-color: #212121;
+}
+
+.top input {
+  width: 150%;
+  transform: translateX(80%);
+  text-align: center;
+  padding: 10px 10px;
+}
+input:focus {
+  border: ipx solid rgb(133, 16, 55);
+}
+.top button {
+  transform: translateX(135%);
+  width: 100%;
+  background-color: blueviolet;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 10px;
+}

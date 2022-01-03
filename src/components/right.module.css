@@ -1,0 +1,10 @@
+.right {
+  width: 20%;
+  border: 1px solid black;
+  float: right;
+  margin-left: 50%;
+  background-color: palevioletred;
+}
+.button {
+  width: 50%;
+}
