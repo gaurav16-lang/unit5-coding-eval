@@ -34,47 +34,58 @@ const Left = () => {
   }
 
   return (
-    <div className={style.top}>
-      <div>
-        <input
-          type="text"
-          placeholder="Receipe Title"
-          name="title"
-          onChange={handleChange}
-        />
-        <br />
-        <input
-          type="text"
-          placeholder="Receipe ingredients"
-          name="ingredients"
-          onChange={handleChange}
-        />
-        <br />
-        <input
-          type="text"
-          placeholder="timeToCook"
-          name="timeToCook"
-          onChange={handleChange}
-        />
-        <br />
-        <input
-          type="text"
-          placeholder=" image of Receipe"
-          name="image"
-          onChange={handleChange}
-        />
-        <br />
-        <input
-          type="text"
-          placeholder="Instructions"
-          name="instructions"
-          onChange={handleChange}
-        />
-        <br />
-        <button onClick={handlereceipe}>Add receipe</button>
+    <>
+      <h1
+        style={{
+          color: '#FF1744',
+          textAlign: 'center',
+          backgroundColor: '#004D40',
+        }}
+      >
+        Receipe Tracking Application
+      </h1>
+      <div className={style.top}>
+        <div>
+          <input
+            type="text"
+            placeholder="Receipe Title"
+            name="title"
+            onChange={handleChange}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="Receipe ingredients"
+            name="ingredients"
+            onChange={handleChange}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="timeToCook"
+            name="timeToCook"
+            onChange={handleChange}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder=" image of Receipe"
+            name="image"
+            onChange={handleChange}
+          />
+          <br />
+          <input
+            type="text"
+            placeholder="Instructions"
+            name="instructions"
+            onChange={handleChange}
+          />
+          <br />
+          <button onClick={handlereceipe}>Add receipe</button>
+        </div>
+        <Right />
       </div>
-      <Right />
-    </div>
+    </>
   )
 }
 
